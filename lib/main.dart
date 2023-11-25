@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:simple_onboarding/pages/onboarding_page.dart';
+import 'package:simple_onboarding/pages/splash_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -7,9 +9,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
+      routes: {
+        '/': (context) => const SplashPage(),
+        '/onboarding': (context) => const OnboardingPage(),
+      },
     );
   }
 }
