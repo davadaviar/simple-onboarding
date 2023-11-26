@@ -21,7 +21,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
     'Feel the new journey...'
   ];
 
-  List<String> body = [
+  List<String> subtitle = [
     'Provide 200+ destinations for your\nvacation around the world.',
     'Serve with the best 24/7 service for you\nduring your vacation.',
     'Feel a lot comfortable places for your\nvacation experience.',
@@ -102,7 +102,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       height: 20,
                     ),
                     Text(
-                      body[currentIndex],
+                      subtitle[currentIndex],
                       style: TextStyle(
                           color: bodyColor, fontSize: 16, height: 1.5),
                       textAlign: TextAlign.center,
