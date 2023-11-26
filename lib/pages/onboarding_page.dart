@@ -35,9 +35,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
           children: [
             CarouselSlider(
               items: [
-                Lottie.asset('assets/animations/destination-animation.json'),
-                Lottie.asset('assets/animations/service-animation.json'),
-                Lottie.asset('assets/animations/place-animation.json')
+                Lottie.asset('assets/animations/animation-destination.json'),
+                Lottie.asset('assets/animations/animation-service.json'),
+                Lottie.asset('assets/animations/animation-place.json')
               ],
               options: CarouselOptions(
                 height: 250,
